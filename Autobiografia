@@ -20,5 +20,8 @@ git merge (nombre rama)
 utilizamos git ignore para precisamente ignorar carpetas o archivos que se generan solos 
 al ejecutar el proyecto local
 touch .gitignore y colocandole adentro los archivos que deseo ignorar
+para poder hacer que aparezca nuestra rama creada en git en github ponemos
+git push origin (nombre de nuestra rama) para esto tenemos que estar en la rama que no aparece
+
 Modificacion
 
