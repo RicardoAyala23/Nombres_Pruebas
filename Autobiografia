@@ -28,5 +28,9 @@ para saber a que commit esta el tag que hice es
 git show-ref --tags
 comando para enviar tags a los repositorios remotos
 git push origin --tags
+para eliminar un tag que fue subido por error
+git tag -d (nombre de la version)
+para eliminarlo del repositorio es 
+git push origin :refs/tags/V0.2
 Modificacion
 
