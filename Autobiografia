@@ -26,5 +26,7 @@ para crear un tag de version o informatico ponemos
 git tag -a (la version que es ejemplo V0.1) -m 'mensaje descriptivo' (numero del commit que deseas que pertenzaca)
 para saber a que commit esta el tag que hice es 
 git show-ref --tags
+comando para enviar tags a los repositorios remotos
+git push origin --tags
 Modificacion
 
