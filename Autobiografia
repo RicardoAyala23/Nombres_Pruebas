@@ -1,0 +1,22 @@
+git init
+git add (nombre archivo)
+git commit -m 'Descripcion'
+este comando te sirve para conocer el id de los commits pasados y volver a ellos
+git log --oneline
+para cambiar de una version a otra usamos
+git checkout
+para mostrar historico de versiones usamos
+git show
+para borrar un commit que no se queria de manera agresiva borrando todo
+git reset (codigo commit en el que deseas posicionarte) --hard
+borra el commit pero mantiene la informacion
+git reset (codigo coomit en el que deseas posicionarte) --soft
+para saber que ramas hay colocamos
+git branch
+para crear nueva rama ejecutamos
+git branch (nobre de la rama)
+para unir ramas usamos el comando nos ubicamos en la rama donde queremos traer los cambios
+git merge (nombre rama)
+
+Modificacion
+
