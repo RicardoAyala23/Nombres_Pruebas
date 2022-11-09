@@ -19,6 +19,6 @@ para unir ramas usamos el comando nos ubicamos en la rama donde queremos traer l
 git merge (nombre rama)
 utilizamos git ignore para precisamente ignorar carpetas o archivos que se generan solos 
 al ejecutar el proyecto local
-
+touch .gitignore y colocandole adentro los archivos que deseo ignorar
 Modificacion
 
