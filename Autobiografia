@@ -22,6 +22,9 @@ al ejecutar el proyecto local
 touch .gitignore y colocandole adentro los archivos que deseo ignorar
 para poder hacer que aparezca nuestra rama creada en git en github ponemos
 git push origin (nombre de nuestra rama) para esto tenemos que estar en la rama que no aparece
-
+para crear un tag de version o informatico ponemos
+git tag -a (la version que es ejemplo V0.1) -m 'mensaje descriptivo' (numero del commit que deseas que pertenzaca)
+para saber a que commit esta el tag que hice es 
+git show-ref --tags
 Modificacion
 
