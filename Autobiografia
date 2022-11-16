@@ -34,3 +34,18 @@ para eliminarlo del repositorio es
 git push origin :refs/tags/V0.2
 Modificacion
 
+
+
+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
+
+
+
+docker
+
+este comando sirve para crear el contenedor el cual tiene una bbdd local y 
+en el localhost de nuestra url le colocamos hots.docker.internal
+sudo docker run --name usuarios --add-host host.docker.internal:host-gateway -p 8001:8001 usuarios
+
+este comando sirve para que nosotros construyamos la imagen de nuestro proyecto diciendo que valla a buscar el dockerfile en una ruta
+sudo docker build -t usuarios . -f ./msvc-usuarios/Dockerfile
+
