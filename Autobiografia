@@ -49,3 +49,10 @@ sudo docker run --name usuarios --add-host host.docker.internal:host-gateway -p 
 este comando sirve para que nosotros construyamos la imagen de nuestro proyecto diciendo que valla a buscar el dockerfile en una ruta
 sudo docker build -t usuarios . -f ./msvc-usuarios/Dockerfile
 
+para que nuestros datos de la BBDD que levantamos en docker no se pierdan colocamos en el run el siguiente comando
+-v (nombre de la carpeta):/var/lib/mysql
+
+para restar el contenedor cada que se reinicie la computadora le colocamos al run 
+--restart=always
+
+
